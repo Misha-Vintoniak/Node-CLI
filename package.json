@@ -1,0 +1,30 @@
+{
+  "name": "Node-CLI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Misha-Vintoniak/Node-CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Misha-Vintoniak/Node-CLI/issues"
+  },
+  "homepage": "https://github.com/Misha-Vintoniak/Node-CLI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.9",
+    "yargs": "^17.0.1"
+  },
+  "dependencies": {
+    "commander": "^8.0.0",
+    "shortid": "^2.2.16"
+  }
+}
